@@ -42,6 +42,7 @@ This is a GUI-based upgrade of the original C++ console app. Built entirely in J
 
 ## Project Structure
 
+```
 JavaFx_GroceryStoreManager/
 ├── src/
 │   └── Storemanager/
@@ -51,6 +52,7 @@ JavaFx_GroceryStoreManager/
 ├── resources/
 │   └── styles.css
 └── README.md
+```
 
 ---
 
@@ -65,5 +67,5 @@ JavaFx_GroceryStoreManager/
 Run Main.java
 
 
-Author
-Muhammad Arslan Fareed · LinkedIn · GitHub
+
+**Muhammad Arslan Fareed** · [LinkedIn](https://www.linkedin.com/in/muhammadarslanfareed) · [GitHub](https://github.com/rslaanfareed)
