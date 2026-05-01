@@ -65,7 +65,15 @@ public class InventoryManager {
             while ((name = reader.readLine()) != null) {
                 double price = Double.parseDouble(reader.readLine());
                 int quantity = Integer.parseInt(reader.readLine());
-                items.add(new Item(name, price, quantity));
+
+                boolean exists = false;
+                for (Item item : items) {
+                    if (item.getName().equalsIgnoreCase(name)) {
+                        exists = true;
+                        break;
+                    }
+                }
+                if (!exists) items.add(new Item(name, price, quantity));
             }
 
             reader.close();
