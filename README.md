@@ -1,12 +1,12 @@
 # JavaFX Grocery Store Manager
 
 A full-featured desktop application built with JavaFX for managing store inventory, products, and sales. CSS-styled GUI with a clean, functional interface.
-
+![Demo](JavafxGroceryStoreManager.gif)
 ---
 
 ## Overview
 
-This is a GUI-based upgrade of the original C++ console app. Built entirely in Java using JavaFX for the interface and external CSS for styling — no inline styles.
+This is a GUI-based Grocery store manager. Built entirely in Java using JavaFX for the interface and external CSS for styling.
 
 ---
 
